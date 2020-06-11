@@ -1,16 +1,101 @@
 // Specific CSS for your home-page
+
 .title-home1 {
-  padding-top: 3%;
+  padding-top: 1%;
   display: flex;
   justify-content: center;
   h1 {
     font-size: 50px;
+    font-family: 'Playfair Display', serif;
   }
   img {
-    width: 60%;
+    width: 43%;
+    min-width: 26%;
   }
 }
 
 .logo-one {
+position: relative;
+bottom: 10px;
+}
 
+.info-home-page1 {
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+  }
+  li {
+    color: white;
+    font-family: 'Playfair Display', serif;
+  }
+  p {
+    color: white;
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.since {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  h3 {
+    font-size: 20px;
+  }
+}
+
+.link-home1 {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+  padding: 8px;
+  font-size: 22px;
+  margin: auto;
+  position: relative;
+  bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px grey;
+  font-family: 'Playfair Display', serif;
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    text-decoration: none;
+  }
+  a {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.link-home2 {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+  padding: 8px;
+  font-size: 22px;
+  background-color: black;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 0 10px 2px grey;
+  font-family: 'Playfair Display', serif;
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    text-decoration: none;
+  }
+  a {
+    font-family: 'Playfair Display', serif;
+  }
 }
