@@ -1,0 +1,19 @@
+.nav-bar3 {
+  display: flex;
+  background-color: #ffcd3c;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+  a {
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 2px solid white;
+    &:hover {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+  }
+}
