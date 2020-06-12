@@ -12,6 +12,15 @@
   margin-top: 15%;
   overflow: scroll;
   overflow-y: scroll;
+  h1 {
+    font-family: 'Roboto Slab', serif;
+  }
+  h2 {
+    font-family: 'Roboto Slab', serif;
+  }
+  p {
+    font-family: 'Roboto Slab', serif;
+  }
 }
 
 .link-home3 {
@@ -28,6 +37,7 @@
     position: relative;
     bottom: 190px;
     left: 31%;
+    font-family: 'Roboto Slab', serif;
      &:hover {
         background-color: #ffcd3c;
         color: white;
@@ -37,6 +47,7 @@
           }
     a {
       color: black;
+      font-family: 'Roboto Slab', serif;
       &:hover {
         background-color: #ffcd3c;
         color: white;
