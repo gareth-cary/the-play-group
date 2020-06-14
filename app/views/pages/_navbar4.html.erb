@@ -1,8 +1,19 @@
-<div class="nav-bar4">
-   <%= image_tag "logo9.png", class: 'logo8' %>
-   <%= link_to "Home-one", root_path, class: 'link-home4'%>
-   <%= link_to "Home-two", home2_path, class: 'link-home4' %>
-   <%= link_to "Home-three", home3_path, class: 'link-home4' %>
-   <%= link_to "Home-four", home4_path, class: 'link-home4' %>
-   <%= link_to "Home-five", root_path, class: 'link-home4' %>
+<div class="navbar-6">
+  <div>
+    <%= image_tag "logo9.png", class: 'logo9' %>
+  </div>
+  <div class="dropdown button-home-page-4">
+    <button class="btn dropdown-toggle dropdown-toggle1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Home-Page Examples
+    </button>
+    <div class="dropdown-menu dropdown-menu1" aria-labelledby="dropdownMenuButton">
+      <%= link_to "Home-one", root_path, class: "dropdown-item" %>
+       <%= link_to "Home-two", home2_path, class: "dropdown-item" %>
+       <%= link_to "Home-three", home3_path, class: "dropdown-item" %>
+       <%= link_to "Home-four", home4_path, class: "dropdown-item" %>
+       <%= link_to "Home-five", root_path, class: "dropdown-item" %>
+    </div>
+  </div>
 </div>
+
+

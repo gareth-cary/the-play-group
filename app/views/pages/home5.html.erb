@@ -1,1 +1,19 @@
-<h1>home 5</h1>
+<div class="navbar-6">
+  <div>
+    <%= image_tag "logo9.png", class: 'logo9' %>
+  </div>
+  <div class="dropdown-link-home">
+    <div class="dropdown show link5-homepages">
+      <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <%= link_to "Home-one", root_path, class: "dropdown-item" %>
+       <%= link_to "Home-two", home2_path, class: "dropdown-item" %>
+       <%= link_to "Home-three", home3_path, class: "dropdown-item" %>
+       <%= link_to "Home-four", home4_path, class: "dropdown-item" %>
+       <%= link_to "Home-five", root_path, class: "dropdown-item" %>
+      </div>
+    </div>
+  </div>
+</div>
