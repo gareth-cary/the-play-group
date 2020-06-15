@@ -1,1 +1,32 @@
+.logo-position {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 10px solid grey;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(https://images.unsplash.com/photo-1539964604210-db87088e0c2c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80);
+  background-position: center;
+  background-size: cover;
+}
 
+.logo101 {
+  width: 520px;
+}
+
+.background-home5 {
+  background-image: url(background-colors2.png);
+  background-position: center;
+  background-size: cover;
+   border-bottom: 10px solid grey;
+}
+
+.left-hand-side {
+  // padding-left: 8%;
+  // padding-right: 8%;
+  color: white;
+}
+
+.right-hand-side {
+  // padding-left: 8%;
+  // padding-right: 8%;
+}
