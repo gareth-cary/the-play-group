@@ -1,10 +1,21 @@
-.nav-bar2 {
-  display: flex;
-  background-color: #393e46;
-  padding: 15px;
-  a {
-    color: white;
-    margin-right: 3%;
-    font-family: 'Acme', sans-serif;
-  }
+.nav-bar23 {
+
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 98%;
+    display: flex;
+
+    align-items: center;
+    a {
+      color: white;
+      font-family: 'Playfair Display', serif;
+      margin-left: 25px;
+    }
+}
+
+.logo23 {
+  width: 100px;
+  margin-left: 10px;
 }
