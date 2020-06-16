@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap', '~> 4.5.0'
 gem 'sprockets-rails'
 gem 'jquery-rails'
+gem 'font-awesome-sass', '~> 5.6.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
