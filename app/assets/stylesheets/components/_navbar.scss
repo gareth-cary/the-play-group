@@ -1,6 +1,7 @@
 .nav-bar {
   display: flex;
-  background-color: #6f0000;
+  justify-content: space-evenly;
+  background-color: black;
   color: white;
   padding: 10px;
   position: sticky;
@@ -8,7 +9,6 @@
   z-index: 1000000000;
   a {
     color: white;
-    border-radius: 5px;
     padding: 5px 10px;
     font-family: 'Playfair Display', serif;
     &:hover {

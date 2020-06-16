@@ -86,26 +86,4 @@ body {
   }
 }
 
-.link-home2 {
-  display: flex;
-  justify-content: center;
-  width: 150px;
-  border: 2px solid white;
-  color: white;
-  padding: 8px;
-  font-size: 22px;
-  background-color: black;
-  border-radius: 10px;
-  margin: auto;
-  box-shadow: 0 0 10px 2px grey;
-  font-family: 'Playfair Display', serif;
-  &:hover {
-    background-color: white;
-    color: black;
-    transition: 0.7s;
-    text-decoration: none;
-  }
-  a {
-    font-family: 'Playfair Display', serif;
-  }
-}
+
