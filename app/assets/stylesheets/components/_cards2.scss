@@ -1,9 +1,10 @@
 .cards2 {
   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     grid-gap: 5%;
     margin-left: 2%;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .card-category4 {
@@ -13,6 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 400px;
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -29,6 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 400px;
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -46,6 +49,7 @@
   align-items: center;
   color: white;
   font-size: 24px;
+  width: 400px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
