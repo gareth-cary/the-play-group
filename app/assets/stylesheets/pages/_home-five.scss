@@ -37,6 +37,22 @@
   height: 100vh;
 }
 
+.info-stuff101 {
+      width: 100%;
+    position: fixed;
+    top: 70px;
+    z-index: 20000;
+    display: flex;
+    justify-content: space-between;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-weight: bolder;
+   p {
+    font-size: 20px;
+   }
+
+}
+
 .button-home-5 {
   position: absolute;
   bottom: 70px;
